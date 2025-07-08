@@ -3,13 +3,17 @@ import { gsap } from "gsap";
 gsap.registerPlugin(ScrollTrigger,SplitText);
 
 import Navbar from './components/Navbar';
+import Herot from './components/Herot';
+import Cocktails from './components/Cocktails';
 
 import React from 'react';  
 const App  = () => {
   return (
     <main>
-      <h1 className="flex-center h-[100vh]"> hey</h1>
+     
       <Navbar/>
+      <Herot/>
+      <Cocktails />
     </main>
   )
 }
