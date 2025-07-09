@@ -73,7 +73,7 @@ const Herot = () => {
   return (
     <>
       <section id="hero" className="noisy">
-        <h1 className="title">Mohito</h1>
+        <h1 className="title">MOJITO</h1>
 
         <img
           src="/images/hero-left-leaf.png"
